@@ -1,118 +1,218 @@
 {
+  "$schema": "https://raw.githubusercontent.com/jsonresume/resume-schema/v1.0.0/schema.json",
   "basics": {
-    "name": "John Doe",
-    "label": "Programmer",
-    "image": "",
-    "email": "john@gmail.com",
-    "phone": "(912) 555-4321",
-    "url": "https://johndoe.com",
-    "summary": "A summary of John Doe…",
+    "name": "Shubham Bhandari",
+    "label": "Aspiring Data Scientist",
+    "email": "contact@essbee.me",
+    "url": "https://essbee.me",
+    "website": "https://essbee.me",
+    "github": "https://github.com/dev-essbee",
     "location": {
-      "address": "2712 Broadway St",
-      "postalCode": "CA 94115",
-      "city": "San Francisco",
-      "countryCode": "US",
-      "region": "California"
+      "address": "",
+      "postalCode": "",
+      "city": "Paris",
+      "countryCode": "FR",
+      "region": "Île-de-France"
     },
-    "profiles": [{
-      "network": "Twitter",
-      "username": "john",
-      "url": "https://twitter.com/john"
-    }]
+    "profiles": [
+      {
+        "network": "GitHub",
+        "username": "dev-essbee",
+        "url": "https://github.com/dev-essbee"
+      },
+      {
+        "network": "LinkedIn",
+        "username": "this-is-sb",
+        "url": "https://www.linkedin.com/in/this-is-sb"
+      },
+      {
+        "network": "Twitter",
+        "username": "this_isSB",
+        "url": "https://twitter.com/this_isSB"
+      },
+      {
+        "network": "Medium",
+        "username": "dev.sb18",
+        "url": "https://medium.com/@dev.sb18/"
+      }
+    ]
   },
-  "work": [{
-    "name": "Company",
-    "position": "President",
-    "url": "https://company.com",
-    "startDate": "2013-01-01",
-    "endDate": "2014-01-01",
-    "summary": "Description…",
-    "highlights": [
-      "Started the company"
-    ]
-  }],
-  "volunteer": [{
-    "organization": "Organization",
-    "position": "Volunteer",
-    "url": "https://organization.com/",
-    "startDate": "2012-01-01",
-    "endDate": "2013-01-01",
-    "summary": "Description…",
-    "highlights": [
-      "Awarded 'Volunteer of the Month'"
-    ]
-  }],
-  "education": [{
-    "institution": "University",
-    "url": "https://institution.com/",
-    "area": "Software Development",
-    "studyType": "Bachelor",
-    "startDate": "2011-01-01",
-    "endDate": "2013-01-01",
-    "score": "4.0",
-    "courses": [
-      "DB1101 - Basic SQL"
-    ]
-  }],
-  "awards": [{
-    "title": "Award",
-    "date": "2014-11-01",
-    "awarder": "Company",
-    "summary": "There is no spoon."
-  }],
-  "certificates": [{
-    "name": "Certificate",
-    "date": "2021-11-07",
-    "issuer": "Company",
-    "url": "https://certificate.com"
-  }],
-  "publications": [{
-    "name": "Publication",
-    "publisher": "Company",
-    "releaseDate": "2014-10-01",
-    "url": "https://publication.com",
-    "summary": "Description…"
-  }],
-  "skills": [{
-    "name": "Web Development",
-    "level": "Master",
-    "keywords": [
-      "HTML",
-      "CSS",
-      "JavaScript"
-    ]
-  }],
-  "languages": [{
-    "language": "English",
-    "fluency": "Native speaker"
-  }],
-  "interests": [{
-    "name": "Wildlife",
-    "keywords": [
-      "Ferrets",
-      "Unicorns"
-    ]
-  }],
-  "references": [{
-    "name": "Jane Doe",
-    "reference": "Reference…"
-  }],
-  "projects": [{
-    "name": "Project",
-    "description": "Description…",
-    "highlights": [
-      "Won award at AIHacks 2016"
-    ],
-    "keywords": [
-      "HTML"
-    ],
-    "startDate": "2019-01-01",
-    "endDate": "2021-01-01",
-    "url": "https://project.com/",
-    "roles": [
-      "Team Lead"
-    ],
-    "entity": "Entity",
-    "type": "application"
-  }]
+  "work": [
+    {
+      "name": "HashedIn By Deloitte",
+      "location": "Bangalore, India",
+      "description": "HashedIn By Deloitte",
+      "position": "SDE-II Machine Learning",
+      "url": "https://hashedin.com/",
+      "startDate": "2023-04-01",
+      "endDate": "2023-08-11",
+      "summary": "I served as a key contributor in the development of a platform that allowed data scientists to create, test, develop, and deploy machine learning pipelines and models.",
+      "highlights": [
+        "Worked on the big data features of the platform.",
+        "Integrated remote Apache Spark, with the jupyter notebooks on the platform. Thus, improving workflows for data scientists and reducing the time by about 20%."
+      ]
+    },
+    {
+      "name": "HashedIn By Deloitte",
+      "location": "Bangalore, India",
+      "description": "HashedIn By Deloitte",
+      "position": "SDE-I Machine Learning",
+      "url": "https://hashedin.com/",
+      "startDate": "2021-06-26",
+      "endDate": "2023-03-31",
+      "summary": "I contributed to the development and enhancement of a cutting-edge NLP platform that transformed the way our client managed their inventory.",
+      "highlights": [
+        "Integrated the platform with the Azure Workspace platform.",
+        "Optimized model performance to increase efficiency by 5%.",
+        "Created and deployed models for new product lines, reducing client's workload by about 30%."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "institution": "ESSEC Business School | Centrale-Supélec, Paris",
+      "url": "https://www.essec.edu/en/",
+      "area": "Data Science and Business Analytics",
+      "studyType": "Masters",
+      "startDate": "2023-09-01",
+      "endDate": "2024-12-31",
+      "gpa": "",
+      "courses": []
+    },
+    {
+      "institution": "JK Lakshmipat University",
+      "url": "https://www.jklu.edu.in/",
+      "area": "Computer Science Engineering",
+      "studyType": "Bachelors",
+      "startDate": "2017-07-17",
+      "endDate": "2021-07-17",
+      "gpa": "8.06/10.0",
+      "courses": []
+    }
+  ],
+  "publications": [
+    {
+      "name": "Design of Robotic Hand And Wireless Glove to Tele-Operate",
+      "publisher": "ACM",
+      "releaseDate": "2021-06-01",
+      "link": "https://link.growkudos.com/1agq4iruj9c",
+      "summary": [
+        "We designed and developed a robotic hand that can be controlled using a specially designed glove wirelessly."
+      ]
+    }
+  ],
+  "skills": [
+    {
+      "name": "Data Science",
+      "value": 90,
+      "keywords": [
+        "Machine Learning",
+        "Natural Language Processing",
+        "Deep Learning",
+        "Time Series Analysis",
+        "MLOps"
+      ]
+    },
+    {
+      "name": "Programming Language",
+      "value": 90,
+      "keywords": [
+        "Python"
+      ]
+    },
+    {
+      "name": "Databases",
+      "value": 90,
+      "keywords": [
+        "SQL",
+        "Neo4J"
+      ]
+    },
+    {
+      "name": "Tools & Technologies",
+      "keywords": [
+        "Kubeflow",
+        "Docker",
+        "Git",
+        "Tensorflow",
+        "PyTorch",
+        "Spark",
+        "Airflow",
+        "MLFlow"
+      ]
+    },
+    {
+      "name": "Cloud Platform",
+      "keywords": [
+        "Amazon Web Services",
+        "Azure Cloud Platform",
+        "Google Cloud Platform"
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "index": 0,
+      "name": "Toxic Comment Classification",
+      "description": [
+        "The aim was to classify statements as toxic or not without any bias across demographic subgroups.",
+        " We created a BiGRU model to achieve 92% accuracy over the dataset and 75% for the worst performing demographic subgroup."
+      ],
+      "keywords": [
+        "Python",
+        "Tensorflow",
+        "Natural Language Processing",
+        "Deep Learning"
+      ],
+      "roles": [
+        "Developer"
+      ],
+      "type": "Deep Learning Model"
+    },
+    {
+      "index": 3,
+      "name": "Name Entity Recognition for Legal Judgments",
+      "description": [
+        "Name Entity Recognition for various entities (defendant, judge, advocate) in the Legal Judgments text files obtained from the Supreme Court of India.",
+        " This was achieved using a RNN and CRF."
+      ],
+      "keywords": [
+        "Deep Learning",
+        "Natural Language Processing",
+        "Python",
+        "Name Entity Recognition"
+      ]
+    },
+    {
+      "index": 1,
+      "name": "Tumour Detection in histopathologic scans of lymph node sections",
+      "description": [
+        "We developed a deep learning model using CNN to classify and detect tumour in histopathologic scans of lymph node sections.",
+        "The model performed well and scored 0.88 f1 score for tumour detection."
+      ],
+      "keywords": [
+        "Python",
+        "PyTorch",
+        "Computer Vision",
+        "Deep Learning"
+      ],
+      "roles": [
+        "Developer"
+      ],
+      "type": "Deep Learning Model"
+    },
+    {
+      "index": 2,
+      "name": "Market Basket Analysis of Grocery Shop",
+      "description": [
+        "We did a comparative study of popular association rules algorithms Apriori, FP-Growth, and Eclat algorithms.",
+        " The Market Basket Analysis revealed valuable insights for the grocery and retail industry. "
+      ],
+      "keywords": [
+        "Machine Learning",
+        "Business Intelligence",
+        "Python"
+      ]
+    }
+  ]
 }

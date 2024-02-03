@@ -40,8 +40,14 @@ handlebars.registerHelper({
 
   formatDate: function (date) {
     return moment(date).format('MMM YYYY');
+  },
+  
+  formatDateYear: function (date) {
+    return moment(date).format('YYYY');
   }
 });
+
+  
 
 
 function render(resume) {

@@ -5,15 +5,19 @@
   </div>
   {{/if}}
   {{#if startDate}}
-  {{#if endDate}}
-  <div class="date">
-    {{formatDate startDate}} — {{formatDate endDate}}{{#if startDate2}}{{#if endDate2}}, {{formatDate startDate2}} —
-    {{formatDate endDate2}}{{else}}, {{formatDate startDate2}} — Present{{/if}}{{/if}}
-  </div>
-  {{else}}
-  <div class="date">
-    {{formatDate startDate}} — Present
-  </div>
-  {{/if}}
+    {{#if endDate}}
+      <div class="date">
+        {{formatDate startDate}} — {{formatDate endDate}}{{#if startDate2}}{{#if endDate2}}, {{formatDate startDate2}} —
+        {{formatDate endDate2}}{{else}}, {{formatDate startDate2}} — Present{{/if}}{{/if}}
+      </div>
+    {{else}}
+      <div class="date">
+        {{formatDate startDate}} — Present
+      </div>
+    {{/if}}
+  {{else if releaseDate}}
+    <div class="date">
+      {{formatDate releaseDate}}
+    </div>
   {{/if}}
 </div>

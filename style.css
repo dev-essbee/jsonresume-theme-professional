@@ -8,10 +8,11 @@ h1 {
 	font: 26px Georgia, serif;
 	text-align: center;
 	margin: 5px;
+	font-weight: bold;
 }
 
 h2 {
-	font-variant-caps: all-small-caps;
+	font-weight: normal;
 	border-width: 1px;
 	border-style: none none solid none;
 	margin: 5px 0 2.5px 0;

@@ -2,7 +2,7 @@
 <section id="education">
 	<h2>Education</h2>
 	{{#each resume.education}}
-	{{#> item title=institution subtitle=studyType location=city startDate=startDate endDate=endDate}}
+	{{#> item title=institution subtitle=(concat studyType ' in ' area) location=city startDate=startDate endDate=endDate}}
 	{{#if score}}
 	<ul>
 		<li>

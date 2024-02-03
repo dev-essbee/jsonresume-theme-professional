@@ -1,0 +1,18 @@
+{{#if resume.projects.length}}
+<section id="projects">
+    <h2>Projects</h2>
+    {{#each resume.projects}}
+    {{#lt @index 4}}
+    {{#> item title=name}}
+    {{#if description}}
+    <ul class="description">
+        {{#each description}}
+        <li>{{.}}</li>
+        {{/each}}
+    </ul>
+    {{/if}}
+    {{/item}}
+    {{/lt}}
+    {{/each}}
+</section>
+{{/if}}
