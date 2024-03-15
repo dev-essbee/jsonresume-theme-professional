@@ -1,0 +1,14 @@
+{{#if resume.objective}}
+<section id="objective">
+    <h2>
+        {{#if_eq resume.language 'fr'}}
+        {{i18n 'obj' 'fr'}}
+        {{else}}
+        {{i18n 'obj' 'en'}}
+        {{/if_eq}}
+    </h2>
+    {{#if resume.objective.summary}}
+        {{resume.objective.summary}}
+    {{/if}}
+</section>
+{{/if}}

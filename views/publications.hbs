@@ -1,6 +1,12 @@
 {{#if resume.publications.length}}
 <section id="work">
-    <h2>Publications</h2>
+    <h2>
+        {{#if_eq resume.language 'fr'}}
+        {{i18n 'pub' 'fr'}}
+        {{else}}
+        {{i18n 'pub' 'en'}}
+        {{/if_eq}}
+    </h2>
     {{#each resume.publications}}
     {{#lt @index 3}}
     {{#> item title=name subtitle=publisher releaseDate=releaseDate}}

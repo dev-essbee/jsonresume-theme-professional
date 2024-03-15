@@ -1,9 +1,15 @@
 {{#if resume.projects.length}}
 <section id="projects">
-    <h2>Projects</h2>
+    <h2>
+        {{#if_eq resume.language 'fr'}}
+        {{i18n 'proj' 'fr'}}
+        {{else}}
+        {{i18n 'proj' 'en'}}
+        {{/if_eq}}
+    </h2>
     {{#each resume.projects}}
-    {{#lt @index 4}}
-    {{#> item title=name}}
+    {{#lt @index 5}}
+    {{#> item title=name github=github medium=medium}}
     {{#if description}}
     <ul class="description">
         {{#each description}}

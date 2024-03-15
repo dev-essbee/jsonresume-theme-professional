@@ -1,6 +1,12 @@
 {{#if resume.skills.length}}
 <section id="skills">
-    <h2>Technologies</h2>
+    <h2>
+        {{#if_eq resume.language 'fr'}}
+        {{i18n 'tech' 'fr'}}
+        {{else}}
+        {{i18n 'tech' 'en'}}
+        {{/if_eq}}
+    </h2>
     <ul class="item">
         {{#each resume.skills}}
         <li>

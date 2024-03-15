@@ -7,12 +7,41 @@ const
   Swag = require('swag');
 
 Swag.registerHelpers(handlebars);
+var translations = {
+    en: {
+        "exp": "Experience",
+        "edu": "Education",
+        "tech": "Technologies",
+        "proj": "Projects",
+        "pub": "Publications",
+        "obj": "Objective"
+        
+    },
+    fr: {
+          "exp": "Expérience",
+          "edu": "Éducation",
+          "tech": "Technologies",
+          "proj": "Projets",
+          "pub": "Publications",
+          "obj": "Objective"
+    }
+};
+
 
 handlebars.registerHelper({
   removeProtocol: function (url) {
     return url.replace(/.*?:\/\//g, '');
   },
-
+  if_eq: function (a, b, opts) {
+    if (a == b) {
+      return opts.fn(this);
+    } else {
+      return opts.inverse(this);
+    }
+  },
+  i18n: function(key, language) {
+    return translations[language][key];
+  },
   concat: function () {
     let res = '';
 
